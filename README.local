@@ -8,5 +8,7 @@ It includes the following changes from upstream:
  * Re-enabled the ability to use the EFI RTC driver on x86, while some
    systems do have issues with it, there are many in the wild that it
    works just fine on.
+ * Removed the Intel RAPL dependency on IOSF_MBI, as this is only really
+   a dependency for SoC platforms.
 
 If/when any of the above ever get's merged into the mainline kernel, I will drop it from here.
