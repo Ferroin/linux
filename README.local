@@ -5,6 +5,8 @@ most recent stable version availible there, although it may lag behind
 at times.
 
 It includes the following changes from upstream:
-
+ * Re-enabled the ability to use the EFI RTC driver on x86, while some
+   systems do have issues with it, there are many in the wild that it
+   works just fine on.
 
 If/when any of the above ever get's merged into the mainline kernel, I will drop it from here.
