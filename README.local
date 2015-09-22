@@ -1,0 +1,10 @@
+This is a personal fork of:
+git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+including some various patches on top.  I try to keep it tracking the
+most recent stable version availible there, although it may lag behind
+at times.
+
+It includes the following changes from upstream:
+
+
+If/when any of the above ever get's merged into the mainline kernel, I will drop it from here.
