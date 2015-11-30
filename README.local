@@ -10,5 +10,10 @@ It includes the following changes from upstream:
    works just fine on.
  * Removed the Intel RAPL dependency on IOSF_MBI, as this is only really
    a dependency for SoC platforms.
+ * Changed the mount syscall so it defaults to 'noatime' instead of
+   'relatime', almsot nothing uses atime anymore, the way it's implemented
+   in almost all operating systems is inherently flawed for the original
+   intended usage, and the people who do should probably be using
+   strictatime anyway.
 
 If/when any of the above ever get's merged into the mainline kernel, I will drop it from here.
