@@ -17,5 +17,7 @@ It includes the following changes from upstream:
    strictatime anyway.
  * Changed the default symlink and hardlink protections back to being
    secure.  We should be secure by default, not the other way around.
+ * Changed the default VT color palette to be brighter and have a less
+   ugly dark yellow.
 
 If/when any of the above ever get's merged into the mainline kernel, I will drop it from here.
