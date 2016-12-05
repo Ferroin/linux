@@ -2,7 +2,8 @@ This is a personal fork of:
 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 including some various patches on top.  I try to keep it tracking the
 most recent stable version availible there, although it may lag behind
-at times.
+at times.  This tree gets rebased each time I update to the newest
+stable version.
 
 It includes the following changes from upstream:
  * Re-enabled the ability to use the EFI RTC driver on x86, while some
@@ -21,4 +22,5 @@ It includes the following changes from upstream:
    ugly dark yellow.
  * Added a custom localversion file to differentiate from upstream.
 
-If/when any of the above ever get's merged into the mainline kernel, I will drop it from here.
+If/when any of the above ever get's merged into the mainline kernel,
+I will drop it from here.
